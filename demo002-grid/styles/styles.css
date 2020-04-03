@@ -1,0 +1,85 @@
+html {
+    font-family: 'Bree Serif', serif;
+    font-size: 10px;
+}
+
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+        ". title"
+        "menu1 anim"
+        "menu2 anim"
+        "menu3 anim"
+        "menu4 anim"
+        "menu5 anim"
+        ". text"
+        ". footer";
+}
+
+header {
+    font-weight: bold;
+    font-size: 3em;
+    grid-area: title;
+    text-align: center;
+}
+
+
+
+.menu1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.menu2 {
+    grid-column: 1;
+    grid-row: 3;
+}
+.menu3 {
+    grid-column: 1;
+    grid-row: 4;
+}
+.menu4 {
+    grid-column: 1;
+    grid-row: 5;
+}
+.menu5 {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.menu1, .menu2, .menu3, .menu4, .menu5 {
+    font-size: 1.5em;
+    text-align: center;
+    border: 2px;
+}
+
+article {
+    font-size: 2em;
+    grid-area: text;
+}
+
+footer {
+    font-size: 1.5em;
+    grid-area: footer;
+    text-align: center;
+}
+
+.animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    background-color: darkseagreen;
+    font-size: 4em;
+    font-weight: lighter;
+    text-align: center;
+    grid-area: anim;
+}
+
+.animtext {
+   
+}
