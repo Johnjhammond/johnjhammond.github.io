@@ -3,11 +3,11 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"ConsumerismAniamteCC_atlas_", frames: [[0,0,1920,1080]]},
-		{name:"ConsumerismAniamteCC_atlas_2", frames: [[0,0,1920,1080]]},
-		{name:"ConsumerismAniamteCC_atlas_3", frames: [[0,0,1920,1080]]},
-		{name:"ConsumerismAniamteCC_atlas_4", frames: [[0,0,1920,1080]]},
-		{name:"ConsumerismAniamteCC_atlas_5", frames: [[0,1082,1852,140],[1062,1224,240,172],[1304,1224,530,70],[0,1224,1060,140],[0,0,1920,1080]]}
+		{name:"index_atlas_", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_2", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_3", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_4", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_5", frames: [[0,1082,1852,140],[1062,1224,240,172],[1304,1224,530,70],[0,1224,1060,140],[0,0,1920,1080]]}
 ];
 
 
@@ -16,7 +16,7 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_30 = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_5"]);
+	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
@@ -35,7 +35,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,4206,2315);
 
 
 (lib.CachedBmp_27 = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_5"]);
+	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -48,14 +48,14 @@ p.nominalBounds = new cjs.Rectangle(0,0,4212,2321);
 
 
 (lib.CachedBmp_25 = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_5"]);
+	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_24 = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_5"]);
+	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
@@ -68,35 +68,35 @@ p.nominalBounds = new cjs.Rectangle(0,0,4044,2289);
 
 
 (lib._01inequality = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_"]);
+	this.initialize(ss["index_atlas_"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._02GlobalWarming = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_2"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._03deforestation = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_3"]);
+	this.initialize(ss["index_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._04ToxicWaste = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_4"]);
+	this.initialize(ss["index_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib._05slaveLabor = function() {
-	this.initialize(ss["ConsumerismAniamteCC_atlas_5"]);
+	this.initialize(ss["index_atlas_5"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -608,11 +608,11 @@ lib.properties = {
 		{src:"images/CachedBmp_28.png", id:"CachedBmp_28"},
 		{src:"images/CachedBmp_26.png", id:"CachedBmp_26"},
 		{src:"images/CachedBmp_23.png", id:"CachedBmp_23"},
-		{src:"images/ConsumerismAniamteCC_atlas_.png", id:"ConsumerismAniamteCC_atlas_"},
-		{src:"images/ConsumerismAniamteCC_atlas_2.png", id:"ConsumerismAniamteCC_atlas_2"},
-		{src:"images/ConsumerismAniamteCC_atlas_3.png", id:"ConsumerismAniamteCC_atlas_3"},
-		{src:"images/ConsumerismAniamteCC_atlas_4.png", id:"ConsumerismAniamteCC_atlas_4"},
-		{src:"images/ConsumerismAniamteCC_atlas_5.png", id:"ConsumerismAniamteCC_atlas_5"}
+		{src:"images/index_atlas_.png", id:"index_atlas_"},
+		{src:"images/index_atlas_2.png", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png", id:"index_atlas_3"},
+		{src:"images/index_atlas_4.png", id:"index_atlas_4"},
+		{src:"images/index_atlas_5.png", id:"index_atlas_5"}
 	],
 	preloads: []
 };
