@@ -1,0 +1,56 @@
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-align: center;    
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-align: center; 
+    margin-top: 2.5em;   
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    
+}
+
+body {
+    background-color: rgb(176, 200, 201);
+}
+
+.main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+.top-list{
+    
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
