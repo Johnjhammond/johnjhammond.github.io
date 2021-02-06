@@ -98,7 +98,7 @@
 }
 
 .div-sect {
-  position: static;
+  position: relative;
   left: 0%;
   top: 0%;
   right: 0%;
@@ -127,7 +127,7 @@
   align-self: auto;
 }
 
-.lottie-animation-1 {
+.lottiemainanim {
   display: block;
   height: auto;
   -webkit-align-self: auto;
@@ -157,20 +157,31 @@
   width: 100%;
   padding-top: 5%;
   padding-bottom: 0px;
-  text-align: center;
+  text-align: left;
   -o-object-fit: fill;
   object-fit: fill;
 }
 
 .divmaintext {
-  width: 33%;
+  position: static;
+  left: 0%;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
   padding-right: 5%;
   padding-left: 5%;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .heading-1 {
   position: static;
-  text-align: center;
+  text-align: left;
 }
 
 .div-main {
@@ -179,6 +190,63 @@
   top: 0%;
   right: 0%;
   bottom: 0%;
+}
+
+.container-fullscreen {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.div-block-5 {
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.lottiefullscreen {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: inline-block;
+  width: auto;
+  max-height: none;
+  max-width: none;
+  min-height: auto;
+  min-width: auto;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.lottiefullpage {
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 @media screen and (max-width: 991px) {
@@ -213,7 +281,7 @@
     grid-template-rows: auto auto;
   }
 
-  .lottie-animation-1 {
+  .lottiemainanim {
     position: static;
     left: 0%;
     top: 0%;
